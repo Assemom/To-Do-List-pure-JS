@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    background: linear-gradient(135deg , rgb(48, 39, 210) ,rgb(52, 153, 52));
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background-color: #fff;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.head img{
+    width: 35px;
+    margin-left: 10px;
+}
+.body{
+    margin: 20px;
+    position: relative;
+    width: 350px;
+}
+.body input{
+    width: 100%;
+}
+.body input , button{
+    border-radius: 50px;
+    padding: 20px;
+    border: 0px;
+    outline: none;
+    background-color: rgb(241, 235, 235);
+}
+button{
+    background-color: orangered;
+    color: #fff;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+}
+li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+ul{
+    list-style: none;
+}
+ul img{
+    width: 8%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+h3{
+    display: inline-block;
+    margin: 10px;
+}
+.icon{
+    color: rgb(255, 0, 0);
+    margin-left: auto;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.checked{
+    text-decoration: line-through;
+    color: gray;
+}
